@@ -22,23 +22,15 @@ body{
     padding-top: 25px;
     padding-bottom: 25px;
 
-
-
-
-
 }
 .button {
-
-    max-width: 120px;
-    height: 45px;
-    display: block;
     font-weight: 600;
     font-size: 16px;
     line-height: 45px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     text-align: center;
     text-decoration: none;
-    padding: 0 36px 0 36px;
+    padding: 0 21px 0 22px;
     color: #FFFFFF;
     background: #FF6336;
 
@@ -47,6 +39,7 @@ body{
 .button.button--border{
     color: #000000;
     background: none;
+    padding: 1px 36px 1px 36px;
 
 }
 
@@ -272,6 +265,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 100px;
+    padding-bottom: 147px;
 
 
 
@@ -288,6 +283,7 @@ body{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    align-items: center;
 
 
 }
@@ -309,7 +305,218 @@ body{
     max-width: 326px;
 
 }
-
-
-
 /*breadcrumb*/
+
+/*services*/
+.services{
+    text-align: start;
+}
+.services__content{
+    display: flex;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 154px;
+    margin-bottom: 75px;
+}
+.services__block{
+    display: flex;
+    padding-bottom: 187px;
+    gap: 31px;
+    align-items: baseline;
+
+}
+.services__group{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+}
+.services__title{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 49px;
+}
+.services__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 409px;
+}
+.services__button{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.services__img{
+
+}
+/*services*/
+
+/*about*/
+.about{
+    display: flex;
+    background: #C9E8F2;
+    justify-content: space-between;
+}
+.about__group{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 165px;
+    max-width: 921px;
+
+}
+.about__text{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 63px;
+}
+.about__pharagraf{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 23px;
+    margin: 0;
+}
+.about__logo{
+    padding-top: 7px;
+    max-width: 116px;
+    display: block;
+
+}
+.about__photo{
+    margin: 53px 0 105px;
+}
+/*about*/
+
+/*partners*/
+.partners{
+    display: flex;
+    background: #DABC98;
+    padding-top: 90px;
+    padding-bottom: 88px;
+}
+.partners__group{
+    display: flex;
+    flex-wrap: wrap;
+    gap:67px;
+    align-items: center;
+
+}
+.partners__text{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    max-width: 461px;
+}
+.partners__logos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 71px;
+
+}
+.partners__rectangle{
+    height: 168px;
+    left: 62.64%;
+    right: 37.29%;
+    top: 10px;
+    color: #000000;
+    background: #000000;
+    margin: 80px 71px 84px 124px;
+}
+/*partners*/
+/*integrations*/
+.integrations{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+.integrations__countent{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 165px;
+}
+.integrations__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    max-width: 791px;
+
+}
+.integrations__text{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 539px;
+    margin: 0;
+}
+.integrations__photo{
+    margin-top: 25px
+}
+.integrations__button{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    background: #FF6336;
+    width: 193px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 162px;
+}
+
+/*integrations*/
+/*location*/
+.location{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #FF9C7D;
+    align-items: center;
+
+}
+.location__countent{
+    padding-top: 119px;
+    max-width: 794px;
+    text-align: center;
+}
+.location__title{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+}
+.location__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 29px;
+    margin: 0;
+}
+.location__button{
+    width: 160px;
+    background: #000000;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 54px;
+    margin-bottom: 161px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+
+}
+/*location*/
